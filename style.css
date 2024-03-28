@@ -1,0 +1,60 @@
+@font-face {
+  font-family: myFont;
+  src: url('../Naganoshi-ywMlV.ttf')
+  /* You can also specify other font formats for compatibility */
+}
+
+
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#hiragana, #katakana {
+  display: none;
+}
+#hiragana, #katakana, #submit-button {
+  padding: 40px 20px;
+}
+
+#homeBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  padding: 40px 20px;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: 2px;
+  color: inherit;
+  font: inherit;
+  font-family: "Reddit Mono", monospace;
+}
+
+#intro {
+  font-family: myFont;
+  font-size: 40px;
+}
+
+.top {
+  margin-bottom: 280px;
+}
+
+.bottom {
+  margin-top: 280px;
+}
+

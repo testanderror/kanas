@@ -185,8 +185,8 @@ function resetGameContainer() {
 function toggleOptions() {
   hiraganaBtn.style.display = 'block';
   katakanaBtn.style.display = 'block';
-  introTop.style.marginBottom = '180px';
-  introBottom.style.marginTop = '210px';
+  introTop.style.marginBottom = '150px';
+  introBottom.style.marginTop = '150px';
   startBtn.style.display = 'none';
 }
 
